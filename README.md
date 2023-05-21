@@ -1,5 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/x5jl53rsf5i9rcob/branch/main?svg=true)](https://ci.appveyor.com/project/marinaustinovich/ra16-homeworks-events-state-dropdown/branch/main)
 
+deployment: https://marinaustinovich.github.io/ra16-homeworks-events-state-dropdown/
 Выпадающий список
 ===
 
