@@ -1,0 +1,32 @@
+.dropdown-wrapper .dropdown li {
+  z-index: 1;
+  position: relative;
+  background: #ffffff;
+  padding: 0 20px;
+  color: #666;
+}
+
+.dropdown-wrapper .dropdown li.active {
+  color: #5380f7;
+}
+
+.dropdown-wrapper .dropdown li:first-child {
+  border-radius: 4px 4px 0 0;
+}
+
+.dropdown-wrapper .dropdown li:last-child {
+  border-radius: 0 0 4px 4px;
+}
+
+.dropdown-wrapper .dropdown li:last-child a {
+  border-bottom: 0;
+}
+
+.dropdown-wrapper .dropdown a {
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 16px 0;
+  color: inherit;
+  font-size: 14px;
+  text-decoration: none;
+}
