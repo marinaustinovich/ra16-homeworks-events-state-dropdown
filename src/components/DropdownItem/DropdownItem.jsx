@@ -8,7 +8,7 @@ const DropdownItem = ({ item, selectItem }) => (
     className={`${item.selected === true ? "active" : ""}`}
     onClick={selectItem}
   >
-    <a href="#">{item.title}</a>
+    <span>{item.title}</span>
   </li>
 );
 

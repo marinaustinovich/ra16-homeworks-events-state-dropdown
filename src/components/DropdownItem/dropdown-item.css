@@ -18,15 +18,19 @@
   border-radius: 0 0 4px 4px;
 }
 
-.dropdown-wrapper .dropdown li:last-child a {
+.dropdown-wrapper .dropdown li:last-child span {
   border-bottom: 0;
 }
 
-.dropdown-wrapper .dropdown a {
+.dropdown-wrapper .dropdown span {
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: 16px 0;
   color: inherit;
   font-size: 14px;
   text-decoration: none;
+}
+
+.dropdown-wrapper .dropdown li:hover {
+  background-color: aliceblue;
 }
